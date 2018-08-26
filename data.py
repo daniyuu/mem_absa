@@ -1,6 +1,7 @@
 import os
 from collections import Counter
 import xml.etree.ElementTree as ET
+from past.builtins import xrange
 
 def _get_abs_pos(cur, ids):
   min_dist = 1000

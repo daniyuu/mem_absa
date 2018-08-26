@@ -4,6 +4,7 @@ import tensorflow as tf
 
 from data import read_data
 from model import MemN2N
+from past.builtins import xrange
 
 pp = pprint.PrettyPrinter()
 
